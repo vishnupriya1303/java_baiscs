@@ -43,6 +43,27 @@ class Hello
    3.char--2 bytes(in c, cpp char has 1 Byte)--as java supports unicode not ascii only char c='K'; //SNGLE QUOTES ONLY
    4.Boolean(True/False)  not 1/0 
 
+---MEMORY----
+//stack--LIFO --IT STORES IN AN OIRDE
+//HEAP--EXPANDS BASED ON SPACE
+//Method variables like main and add func--gets stored in stack memory each method withbits own stack--local variables
+
+//methods inside class, but outside method--stored in HEAP--instance variables
+
+//reference variable is also stored in heap--it has an address in heap, it contains instance variables and method names..
+//thats why it can be  accessed multple times..
+//refernce varaible stores address in main stack, so there is an adress link
+
+//if u change obj.num value, it wont affect other obj value..as they r two diff addresses
+
+//need of an array
+to store variables of similar data type without having to declare multiple variables 
+declaration: int arr[]={1,2,3,4};//size and values are known--should always stick to size 
+//for creating an array:
+int arr[]=new int[4];
+
+
+
   
 
 
