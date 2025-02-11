@@ -1,0 +1,48 @@
+to install java on ur system--download jdk latest version that is LTS and VS CODE for editor now in cmd::
+java --version for java version
+javac   for java compiler version
+
+java--popular lang
+james gosling and team (sun microsystems)
+
+now is owned by oracle
+download jdk version that is LTS(Long Time Support)
+
+jdk has jre(jvm+ libraries)
+
+u write code in java(.java)--using compiler u convert into byte code(javac converts .java to .class file)
+this byte code or .class file is given to JVM/JRE and it executes/runs our code
+
+java is platform independent-- it means the same code works in all OS , all hardware
+
+java feature--WRITE ONCE READ ANYWHERE(COMPILE ONCE, U CAN EXECUTE IT ANYWHERE)
+
+jshell in cmd
+u willget an interactive java console 
+
+//first program
+java is OOP so declare a class
+
+// EXECUTION STARTS FROM main
+//EVERY LINE(NOT BLOCK) has to end with ;
+
+class Hello
+{
+    public static void main(String a[])
+    {
+        System.out.print("HI");   //STANDARD STATEMENT TO PRINT ANYTHING
+    }
+}
+
+//to store variables--data types
+         datatypes
+         ||||||
+   primitive
+   1.int(short,int long,byte) byte(from -2^7 to 2^7-1)
+   2.float(double,float)---by default in java double, to use float explicitly u have to mention float x=2.3f;
+   3.char--2 bytes(in c, cpp char has 1 Byte)--as java supports unicode not ascii only char c='K'; //SNGLE QUOTES ONLY
+   4.Boolean(True/False)  not 1/0 
+
+  
+
+
