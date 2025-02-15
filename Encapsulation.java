@@ -40,7 +40,7 @@ class Encapsulation
     public static void main(String a[])
     {
            Stud s1=new Stud();
-           Stud s2=new Stud();
+          // Stud s2=new Stud();
           // s1.setage(24); //to modify that vraiable also we need mthod in it
            System.out.println(s1.pri());
           // System.out.println(s1.age);//throws error as we cannot access age as its private to that class

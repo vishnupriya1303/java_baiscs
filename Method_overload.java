@@ -8,10 +8,10 @@ class Calci
     {
         return a+b;
     }
-    public int add(int a, int b)//throws an error, so u can change data type of one of the parameters or increase or decrease numb of param 
+    /*public int add(int a, int b)//throws an error, so u can change data type of one of the parameters or increase or decrease numb of param 
     {
         return a+b;
-    }
+    }*/
 }
 class Method_overload
 {

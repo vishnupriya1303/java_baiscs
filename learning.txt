@@ -62,8 +62,22 @@ declaration: int arr[]={1,2,3,4};//size and values are known--should always stic
 //for creating an array:
 int arr[]=new int[4];
 
+//naming convention-- for better readability and understanding
 
+camel casing
 
-  
+class(Stud), interfaces(Runnable)--starts with Capital Letter
+variable and method - marks, show()---small letters
+constants --- PIE all caps
+if multiple words are there---camel casing---first letter of every word is--caps like ShowMyMarks
 
+//other languages--snake casing show_my_marks
 
+//for every class in our code--it creates .class file//after compilation
+
+//polymorphism--ability to show multiple forms/behaviour
+
+--twoi tyopes
+
+compile time(if the behaviour is defined in compie time)--method ove loading
+Run time--method over riding

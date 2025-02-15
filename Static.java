@@ -36,11 +36,11 @@ class Static
 {
     public static void main(String a[]) //declared main means we dont need to create an obj to call main--this is the strating point of any program
     {
-             Stud s1=new Stud();
-             Stud s2=new Stud();
+            // Stud s1=new Stud();
+            // Stud s2=new Stud();
             // Stud.pincode=506001;
-             s1.print();
-             s2.print();
+            // s1.print();
+            // s2.print();
              //we can use non static variable inside static method if we have object reference like---Stud.print(obj1)
     }
 }
@@ -59,4 +59,4 @@ class Static
 
 //so do it explicitly--u need to add this':
 
-Class.forName(className:"Stud");// this loads the class Stud, might also throw exception so add in main throws ClassNotFoundException
+//Class.forName(className:"Stud");// this loads the class Stud, might also throw exception so add in main throws ClassNotFoundException
