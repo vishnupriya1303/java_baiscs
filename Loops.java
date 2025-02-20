@@ -25,10 +25,10 @@ class Loops
          }
 
          //do while loop
-         do{
+        /* do{
 
          }(while x>10);
 
-         for(int x=1;x<10;x++)
+         for(int x=1;x<10;x++)*/
     }
 }
